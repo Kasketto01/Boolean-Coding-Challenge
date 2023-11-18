@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/img/background.jpg');
+    background-size: cover;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #000000a1;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.387);
+}
+.heading {
+    
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+.button-container {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #00e52e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #62c376;
+}
+
+h1 {
+    color: #00e52e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.battery {
+    color:#fff;
+    padding: 5px;
+    width: 100%;
+}
+
+.high-battery-percentage {
+    background-color: rgb(71, 255, 111);
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.medium-battery-percentage {
+    background-color: rgb(255, 245, 63);
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.low-battery-percentage {
+    background-color: rgb(254, 97, 70);
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+}
